@@ -1,0 +1,38 @@
+{
+    "name": "level-one-jam-achievement-manager",
+    "version": "0.0.1",
+    "description": "Bot for handing things on loj's discord server",
+    "main": "bot.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node bot.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/BlackPhlox/level-one-jam-achievement-manager.git"
+    },
+    "keywords": [
+      "discord",
+      "bot",
+      "node.js",
+      "google",
+      "sheets",
+      "api"
+    ],
+    "author": "Black Phlox",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/BlackPhlox/level-one-jam-achievement-manager/issues"
+    },
+    "homepage": "https://github.com/BlackPhlox/level-one-jam-achievement-manager#readme",
+    "dependencies": {
+      "discord.js": "^11.5.1",
+      "dotenv": "^8.2.0",
+      "google-auth-library": "^5.9.2",
+      "google-spreadsheet": "^3.0.8",
+      "googleapis": "^47.0.0",
+      "request": "2.81.0",
+      "util": "^0.12.1"
+    }
+  }
+  
